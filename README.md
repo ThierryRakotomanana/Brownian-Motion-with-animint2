@@ -1,0 +1,2 @@
+# Description
+Ce code crée une animation montrant la trajectoire d'un mouvement brownien. La fonction brownian_anim() utilise la librairie ggplot2 pour créer un graphique avec des points jaunes avec une bordure rouge qui se déplacent de manière aléatoire à chaque étape. La fonction transition_reveal() permet de faire apparaître chaque point un par un, créant ainsi l'effet d'animation. La légende du graphique est définie avec ggplot2::labs(). Enfin, animint() est utilisé pour créer l'animation et print() est utilisé pour afficher l'animation dans la console R.
