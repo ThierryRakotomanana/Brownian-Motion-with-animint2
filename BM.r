@@ -1,7 +1,7 @@
 
 brownian_anim <- function() {
-  ani.options(interval = 0.05, nmax = 150)
-   # nolint
+  #ani.options(interval = 0.05, nmax = 150)
+   # change this code before because it doesn't run
   x <- y <- rep(0, 10)
   dat <- data.frame(x, y)
    # nolint: trailing_whitespace_linter.
